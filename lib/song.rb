@@ -1,6 +1,9 @@
 require 'pry'
 
 class Song
+  
+  extend ClassMethod 
+  
   attr_accessor :name
   attr_reader :artist
 
